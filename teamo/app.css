@@ -27,7 +27,8 @@ body {
   height: 100vh;
   width: 100%;
   background: center / cover no-repeat url("../gatinhos/gatodois.png");
-  background-size: 100% 50%; /* Para mobile */
+  background-size: cover;
+  background-position: center;
 }
 
 .background-3 {
@@ -35,7 +36,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background: center / cover no-repeat url("../gatinhos/gatitos.png");
 }
@@ -130,5 +131,20 @@ body {
 @media (min-width: 768px) {
   .background-1 {
     background-size: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .background-1, .background-3 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+  }
+  .text-element { /* exemplo de classe para o texto */
+      font-size: 4vw;
+  }
+  .image-element { /* exemplo de classe para a imagem */
+      width: 80%;
   }
 }
