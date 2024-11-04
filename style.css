@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url(/oracaohojepraelamedarumachance/img/backtwoflores.jpg) no-repeat center center fixed;
+    background: url(/oracaohojepraelamedarumachance/img/backtwofloresteste.jpg) no-repeat center center fixed;
     background-size: cover;
     font-family: Barlow, Arial, Helvetica, sans-serif;
     padding-bottom: 60px; 
@@ -37,7 +37,7 @@ footer {
     width: 100%;
     text-align: center;
     padding: 15px 0; 
-    border-radius: 50px; 
+    border-radius: 49px; 
 }
 strong {
     color: red;
